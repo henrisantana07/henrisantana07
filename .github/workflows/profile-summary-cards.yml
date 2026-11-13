@@ -1,0 +1,25 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate
+    permissions:
+      contents: write
+    steps:
+      # Obrigatório: a action roda `git add`/`git commit`/`git push` para gravar
+      # os cards no repositório. Sem checkout o runner não é um repo git.
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          TIME_ZONE: "America/Sao_Paulo"
