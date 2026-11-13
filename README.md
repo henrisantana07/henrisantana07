@@ -53,16 +53,12 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=henrisantana07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=a78bfa&icon_color=7c3aed" alt="GitHub Stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henrisantana07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=a78bfa" alt="Top Languages" />
+<img width="49%" src="./profile-summary-card-output/dracula/3-stats.svg" alt="GitHub Stats" />
+<img width="49%" src="./profile-summary-card-output/dracula/2-most-commit-language.svg" alt="Top Languages" />
 
 <br/>
 
 <img src="https://streak-stats.demolab.com?user=henrisantana07&theme=tokyonight&hide_border=true&background=0f172a&ring=7c3aed&fire=a78bfa&currStreakLabel=a78bfa" alt="Streak Stats" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=henrisantana07&theme=nord&no-frame=true&no-bg=true&row=1&column=7" alt="Trophies" />
 
 </div>
 
