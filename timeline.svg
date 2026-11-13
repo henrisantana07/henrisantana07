@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="t d">
+  <title id="t">Trajetória de Henrique Santana</title>
+  <desc id="d">Linha do tempo vertical: SENAI Beira Mar (2024–2026), Hilda Miranda Nascimento (2023–2025) e IBDH (2022–2024).</desc>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; }
+    .head { font-family: 'Space Grotesk', Inter, 'Segoe UI', Arial, sans-serif; }
+    .date { font-size: 13px; fill: #00FF87; letter-spacing: 1px; }
+    .title { font-size: 20px; font-weight: 700; fill: #E2E2E2; letter-spacing: 0.5px; }
+    .sub { font-size: 14px; fill: #B9CBB9; }
+    .loc { font-size: 12px; fill: #849585; }
+    .badge { font-size: 11px; font-weight: 700; fill: #00210C; letter-spacing: 1px; }
+  </style>
+
+  <rect width="800" height="450" fill="#000000"/>
+
+  <!-- linha vertical -->
+  <line x1="60" y1="20" x2="60" y2="430" stroke="#00FF87" stroke-width="2"/>
+
+  <!-- 1 · SENAI -->
+  <line x1="60" y1="70" x2="80" y2="70" stroke="#00FF87" stroke-width="2"/>
+  <rect x="52" y="62" width="16" height="16" fill="#00FF87"/>
+  <rect x="80" y="40" width="700" height="120" fill="#0B0B0B" stroke="#181E18"/>
+  <text class="mono date" x="100" y="70">AGO 2024 → ABR 2026</text>
+  <text class="head title" x="100" y="98">SENAI BEIRA MAR</text>
+  <text class="head sub" x="100" y="122">Desenvolvimento de Sistemas · Aprendiz na indústria</text>
+  <text class="mono loc" x="100" y="145">Bento Ferreira, Vitória - ES</text>
+  <rect x="660" y="54" width="104" height="22" fill="#00FF87"/>
+  <text class="mono badge" x="712" y="69" text-anchor="middle">CONCLUÍDO</text>
+
+  <!-- 2 · Ensino médio -->
+  <line x1="60" y1="210" x2="80" y2="210" stroke="#00FF87" stroke-width="2"/>
+  <rect x="52" y="202" width="16" height="16" fill="#000000" stroke="#00FF87" stroke-width="2"/>
+  <rect x="80" y="180" width="700" height="120" fill="#0B0B0B" stroke="#181E18"/>
+  <text class="mono date" x="100" y="210">FEV 2023 → DEZ 2025</text>
+  <text class="head title" x="100" y="238">HILDA MIRANDA NASCIMENTO</text>
+  <text class="head sub" x="100" y="262">Ensino médio · Formação Integral em Manutenção</text>
+  <text class="mono loc" x="100" y="285">Porto Canoa, Serra - ES</text>
+  <rect x="660" y="194" width="104" height="22" fill="#00FF87"/>
+  <text class="mono badge" x="712" y="209" text-anchor="middle">CONCLUÍDO</text>
+
+  <!-- 3 · IBDH -->
+  <line x1="60" y1="350" x2="80" y2="350" stroke="#00FF87" stroke-width="2"/>
+  <rect x="52" y="342" width="16" height="16" fill="#000000" stroke="#00FF87" stroke-width="2"/>
+  <rect x="80" y="320" width="700" height="120" fill="#0B0B0B" stroke="#181E18"/>
+  <text class="mono date" x="100" y="350">NOV 2022 → FEV 2024</text>
+  <text class="head title" x="100" y="378">IBDH</text>
+  <text class="head sub" x="100" y="402">Assistente Administrativo · 1280 horas</text>
+  <text class="mono loc" x="100" y="425">Centro, Vitória - ES</text>
+  <rect x="660" y="334" width="104" height="22" fill="#00FF87"/>
+  <text class="mono badge" x="712" y="349" text-anchor="middle">CONCLUÍDO</text>
+</svg>

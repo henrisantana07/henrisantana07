@@ -70,19 +70,9 @@ status     → aberto a oportunidades
 
 ## `> TRAJETÓRIA`
 
-```text
-AGO 2024 → ABR 2026   SENAI Beira Mar
-                      Desenvolvimento de Sistemas · Aprendiz na indústria
-                      Bento Ferreira, Vitória - ES                [CONCLUÍDO]
-
-FEV 2023 → DEZ 2025   Hilda Miranda Nascimento
-                      Ensino médio · Formação Integral em Manutenção
-                      Porto Canoa, Serra - ES                     [CONCLUÍDO]
-
-NOV 2022 → FEV 2024   IBDH
-                      Assistente Administrativo · 1280 h
-                      Centro, Vitória - ES                        [CONCLUÍDO]
-```
+<div align="center">
+  <img src="./timeline.svg" alt="Linha do tempo: SENAI Beira Mar (2024–2026), Hilda Miranda Nascimento (2023–2025) e IBDH (2022–2024)" width="100%" />
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
 
