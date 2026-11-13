@@ -53,16 +53,23 @@ status     → aberto a oportunidades
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
 
-## `> ATIVIDADE`
+## `> STATUS`
 
 <div align="center">
 
-<img width="49%" src="./profile-summary-card-output/chartreuse_dark/3-stats.svg" alt="GitHub Stats" />
-<img width="49%" src="./profile-summary-card-output/chartreuse_dark/2-most-commit-language.svg" alt="Top Languages" />
+<img src="https://raw.githubusercontent.com/henrisantana07/henrisantana07/pacman-output/hud.svg" alt="Painel de status: contribuições, sequências e linguagens mais usadas no GitHub" width="100%" />
 
-<br/>
+</div>
 
-<img src="https://streak-stats.demolab.com?user=henrisantana07&hide_border=true&background=000000&ring=00FF87&fire=00FF87&currStreakNum=E2E2E2&sideNums=E2E2E2&currStreakLabel=00FF87&sideLabels=B9CBB9&dates=849585&stroke=1B1B1B" alt="Streak Stats" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
+
+## `> ARCADE`
+
+Cada contribuição, um inimigo a menos. Meu histórico em modo Galaga.
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/henrisantana07/henrisantana07/pacman-output/galaga-contribution-graph.svg" alt="Arcade Galaga animado com minhas contribuições no GitHub" width="100%" />
 
 </div>
 
