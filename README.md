@@ -93,6 +93,6 @@ Prefere escrever? Respondo em até um dia útil.
 <a href="https://wa.me/5527997612988?text=Ol%C3%A1!%20Vi%20seu%20GitHub."><img src="https://img.shields.io/badge/WHATSAPP-25D366?style=flat-square&logo=whatsapp&logoColor=00210C" /></a>
 <a href="https://www.linkedin.com/in/henrique-santana-017b45223"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=flat-square&logo=linkedin&logoColor=00FF87" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF87,100:000000&height=100&section=footer" alt="Footer." />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF87,100:000000&height=100&section=footer" alt="Footer" />
 
 </div>
