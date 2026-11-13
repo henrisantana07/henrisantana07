@@ -11,7 +11,7 @@
 <a href="https://portifolio-bay-zeta.vercel.app"><img src="https://img.shields.io/badge/VER%20PROJETOS-00FF87?style=flat-square&labelColor=00FF87&color=00FF87&logo=vercel&logoColor=00210C" /></a>
 <a href="https://portifolio-bay-zeta.vercel.app/curriculo.pdf"><img src="https://img.shields.io/badge/CURR%C3%8DCULO-000000?style=flat-square&color=000000&logo=readme&logoColor=E2E2E2&label=&labelColor=000000" /></a>
 <a href="https://www.linkedin.com/in/henrique-santana-017b45223"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=flat-square&color=000000&logo=linkedin&logoColor=00FF87&label=&labelColor=000000" /></a>
-<a href="mailto:henrisantana07@gmail.com"><img src="https://img.shields.io/badge/E--MAIL-00FF87?style=flat-square&logo=gmail&logoColor=00210C" /></a>
+<a href="mailto:henrisantana07@gmail.com"><img src="https://img.shields.io/badge/E--MAIL-000000?style=flat-square&color=000000&logo=gmail&logoColor=00FF87&label=&labelColor=000000" /></a>
 
 </div>
 
@@ -57,11 +57,11 @@ status     → aberto a oportunidades
 
 <div align="center">
 
-<img src="./hud.svg" alt="Painel de status: contribuições, sequências e linguagens mais usadas no GitHub" width="100%"/>
+<img src="https://raw.githubusercontent.com/henrisantana07/henrisantana07/pacman-output/hud.svg" alt="Painel de status: contribuições, sequências e linguagens mais usadas no GitHub" width="100%" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
 
 ## `> ARCADE`
 
@@ -69,21 +69,19 @@ Cada contribuição, um inimigo a menos. Meu histórico em modo Galaga.
 
 <div align="center">
 
-<img src="./galaga-contribution-graph.svg" alt="Arcade Galaga animado com minhas contribuições no GitHub" width="100%"/>
+<img src="https://raw.githubusercontent.com/henrisantana07/henrisantana07/pacman-output/galaga-contribution-graph.svg" alt="Arcade Galaga animado com minhas contribuições no GitHub" width="100%" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
 
 ## `> TRAJETÓRIA`
 
 <div align="center">
-
-<img src="./timeline.svg" alt="Linha do tempo: SENAI Beira Mar (2024–2026), Hilda Miranda Nascimento (2023–2025) e IBDH (2022–2024)" width="100%" />
-
+  <img src="./timeline.svg" alt="Linha do tempo: SENAI Beira Mar (2024–2026), Hilda Miranda Nascimento (2023–2025) e IBDH (2022–2024)" width="100%" />
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
 
 ## `> CONTATO`
 
