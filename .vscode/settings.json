@@ -1,3 +1,20 @@
 {
-    "git.ignoreLimitWarning": true
+    // --- Source Control / Git ---
+    // Sempre mostrar a lista de repositórios no painel "Controle de Código-Fonte",
+    // mesmo quando não houver alterações.
+    "scm.alwaysShowRepositories": true,
+
+    // Não detectar repositórios em pastas acima da pasta aberta.
+    // Sem isso, ao abrir este repo o IDE encontra o repo legado em C:\Users\henri
+    // e pergunta se quer trocar — o que esconde este repositório no painel.
+    "git.openRepositoryInParentFolders": "never",
+
+    // Detectar repositórios aninhados em subpastas (até 3 níveis).
+    "git.autoRepositoryDetection": true,
+    "git.repositoryScanMaxDepth": 3,
+
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.ignoreLimitWarning": true,
+    "git.pullBeforeCheckout": true
 }
