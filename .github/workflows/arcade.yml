@@ -25,6 +25,9 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           games: "galaga"
 
+      - name: replace the ship with the custom icon
+        run: node .github/scripts/ship-icon.mjs
+
       - name: generate hud.svg (status panel)
         continue-on-error: true
         run: node .github/scripts/hud.mjs
@@ -32,7 +35,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: push generated SVGs to the output branch
-        uses: crazy-max/ghaction-github-pages@v5.0.0
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: pacman-output
           build_dir: dist
