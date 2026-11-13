@@ -1,87 +1,101 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7c3aed&height=200&section=header&text=Henrique%20Santana&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20J%C3%BAnior&descSize=20&descAlignY=58" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00FF87&height=220&section=header&text=HENRIQUE%20SANTANA&fontSize=52&fontColor=E2E2E2&fontAlign=50&fontAlignY=40&desc=DESENVOLVEDOR%20J%C3%9ANIOR&descSize=18&descColor=00FF87&descAlignY=62" alt="Henrique Santana" />
 
 <a href="https://portifolio-bay-zeta.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=520&lines=Construo+interfaces+web+modernas;TypeScript+%7C+Tailwind+%7C+Java+%7C+PostgreSQL;Aberto+a+oportunidades+em+TI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=00FF87&background=00000000&center=true&vCenter=true&width=560&lines=Construo+interfaces+web+com+TypeScript+e+Tailwind;Java+%2B+PostgreSQL+no+back-end;Aberto+a+oportunidades+em+TI" alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
-<a href="https://portifolio-bay-zeta.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-7c3aed?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/henrique-santana-017b45223"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:henrisantana07@gmail.com"><img src="https://img.shields.io/badge/E--mail-ea4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://portifolio-bay-zeta.vercel.app/curriculo.pdf"><img src="https://img.shields.io/badge/Curr%C3%ADculo-0f172a?style=for-the-badge&logo=readme&logoColor=white" /></a>
+<a href="https://portifolio-bay-zeta.vercel.app"><img src="https://img.shields.io/badge/VER%20PROJETOS-00FF87?style=flat-square&labelColor=00FF87&color=00FF87&logo=vercel&logoColor=00210C" /></a>
+<a href="https://portifolio-bay-zeta.vercel.app/curriculo.pdf"><img src="https://img.shields.io/badge/CURR%C3%8DCULO-000000?style=flat-square&color=000000&logo=readme&logoColor=E2E2E2&label=&labelColor=000000" /></a>
+<a href="https://www.linkedin.com/in/henrique-santana-017b45223"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=flat-square&color=000000&logo=linkedin&logoColor=00FF87&label=&labelColor=000000" /></a>
+<a href="mailto:henrisantana07@gmail.com"><img src="https://img.shields.io/badge/E--MAIL-000000?style=flat-square&color=000000&logo=gmail&logoColor=00FF87&label=&labelColor=000000" /></a>
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
 
-## 👋 Sobre mim
+## `> SOBRE`
 
-- 💻 Desenvolvedor júnior formado em **Desenvolvimento de Sistemas** pelo **SENAI** (Aprendizagem Industrial, 2024–2026)
-- 🎯 Foco em **front-end** e **back-end** com TypeScript, Tailwind, Java e PostgreSQL
-- 📍 Serra, ES — Brasil
-- 🚀 Construindo projetos reais e publicados, com deploy na Vercel
+Desenvolvedor júnior. Construo interfaces web com **TypeScript**, **Tailwind**, **Java** e **PostgreSQL**.
 
----
+```text
+formação   → Desenvolvimento de Sistemas · SENAI (2024–2026)
+foco       → front-end e back-end
+local      → Serra, ES — Brasil
+status     → aberto a oportunidades
+```
 
-## 🛠️ Stack
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
+
+## `> HABILIDADES`
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=ts,js,html,css,tailwind,java,postgres,git,github,vercel,vscode&perline=11" alt="Skills" />
 
-<br/><sub>Também: SQL · GSAP · Lógica de programação · Algoritmos · Documentação técnica</sub>
+<sub><code>SQL</code> · <code>GSAP</code> · <code>LÓGICA</code> · <code>ALGORITMOS</code> · <code>DOCUMENTAÇÃO TÉCNICA</code></sub>
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
 
-## 📂 Projetos
+## `> PROJETOS RECENTES`
 
-| Projeto | Descrição | Link |
+| PROJETO | DESCRIÇÃO | LINKS |
 | :-- | :-- | :-- |
-| 🎵 **EmberMusic** | Player de música web com busca, playlists, artistas, biblioteca local e login com Google | [Demo](https://ember-music-five.vercel.app/) · [Código](https://github.com/henrisantana07/ember-music) |
-| 📚 **Contos Derry** | Landing page temática para livraria de terror, com vitrine de coleções e layout responsivo | [Demo](https://contos-derry-1.vercel.app/) |
-| 🚚 **Vectra** | Landing page para solução de automação logística, com foco em proposta de valor e contato | [Demo](https://vectra4-1.vercel.app/) |
-| 🌐 **Portfólio** | Meu portfólio pessoal, com projetos, trajetória e contato | [Demo](https://portifolio-bay-zeta.vercel.app) · [Código](https://github.com/henrisantana07/Portifolio) |
+| **EMBERMUSIC**<br/><sub>`MÚSICA · PLAYER WEB`</sub> | Player web com busca, playlists, artistas e biblioteca local. Login com Google e layout responsivo | [`DEMO`](https://ember-music-five.vercel.app/) · [`CÓDIGO`](https://github.com/henrisantana07/ember-music) |
+| **CONTOS DERRY**<br/><sub>`LIVRARIA DE TERROR · E-COMMERCE`</sub> | Landing page temática com vitrine de coleções, destaques de títulos e navegação responsiva | [`DEMO`](https://contos-derry-1.vercel.app/) |
+| **VECTRA**<br/><sub>`AUTOMAÇÃO · LOGÍSTICA`</sub> | Landing page de solução de automação logística, com funcionalidades, proposta de valor e contato comercial | [`DEMO`](https://vectra4-1.vercel.app/) |
+| **PORTFÓLIO**<br/><sub>`SITE PESSOAL`</sub> | Projetos, trajetória e contato em um só lugar | [`DEMO`](https://portifolio-bay-zeta.vercel.app) · [`CÓDIGO`](https://github.com/henrisantana07/Portifolio) |
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
 
-## 📊 Estatísticas do GitHub
+## `> ATIVIDADE`
 
 <div align="center">
 
-<img width="49%" src="./profile-summary-card-output/dracula/3-stats.svg" alt="GitHub Stats" />
-<img width="49%" src="./profile-summary-card-output/dracula/2-most-commit-language.svg" alt="Top Languages" />
+<img width="49%" src="./profile-summary-card-output/chartreuse_dark/3-stats.svg" alt="GitHub Stats" />
+<img width="49%" src="./profile-summary-card-output/chartreuse_dark/2-most-commit-language.svg" alt="Top Languages" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=henrisantana07&theme=tokyonight&hide_border=true&background=0f172a&ring=7c3aed&fire=a78bfa&currStreakLabel=a78bfa" alt="Streak Stats" />
+<img src="https://streak-stats.demolab.com?user=henrisantana07&hide_border=true&background=000000&ring=00FF87&fire=00FF87&currStreakNum=E2E2E2&sideNums=E2E2E2&currStreakLabel=00FF87&sideLabels=B9CBB9&dates=849585&stroke=1B1B1B" alt="Streak Stats" />
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
 
-## 🎓 Trajetória
+## `> TRAJETÓRIA`
 
-- **SENAI Beira Mar** — Desenvolvimento de Sistemas, Aprendiz na indústria (Ago 2024 – Abr 2026)
-- **EEEFM Hilda Miranda Nascimento** — Ensino médio com Formação Integral em Manutenção (2023–2025)
-- **IBDH** — Assistente Administrativo, 1280 h (Nov 2022 – Fev 2024)
+```text
+AGO 2024 → ABR 2026   SENAI Beira Mar
+                      Desenvolvimento de Sistemas · Aprendiz na indústria
+                      Bento Ferreira, Vitória - ES                [CONCLUÍDO]
 
----
+FEV 2023 → DEZ 2025   Hilda Miranda Nascimento
+                      Ensino médio · Formação Integral em Manutenção
+                      Porto Canoa, Serra - ES                     [CONCLUÍDO]
 
-## 📫 Contato
+NOV 2022 → FEV 2024   IBDH
+                      Assistente Administrativo · 1280 h
+                      Centro, Vitória - ES                        [CONCLUÍDO]
+```
 
-Procurando minha primeira oportunidade como desenvolvedor? Vamos conversar.
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
+
+## `> CONTATO`
+
+Prefere escrever? Respondo em até um dia útil.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/-henrique--santana-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/henrique-santana-017b45223)
-[![E-mail](https://img.shields.io/badge/-henrisantana07@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:henrisantana07@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/5527997612988?text=Ol%C3%A1!%20Vi%20seu%20GitHub.)
+<a href="mailto:henrisantana07@gmail.com"><img src="https://img.shields.io/badge/E--MAIL-00FF87?style=flat-square&logo=gmail&logoColor=00210C" /></a>
+<a href="https://wa.me/5527997612988?text=Ol%C3%A1!%20Vi%20seu%20GitHub."><img src="https://img.shields.io/badge/WHATSAPP-25D366?style=flat-square&logo=whatsapp&logoColor=00210C" /></a>
+<a href="https://www.linkedin.com/in/henrique-santana-017b45223"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=flat-square&logo=linkedin&logoColor=00FF87" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,100:0f172a&height=100&section=footer" alt="Footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF87,100:000000&height=100&section=footer" alt="Footer" />
 
 </div>
