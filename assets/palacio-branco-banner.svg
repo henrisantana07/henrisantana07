@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Henrique Santana — Palácio Branco</title>
+<desc id="desc">Banner monocromático de arquitetura gótica inspirada no Palácio Branco de Hollow Knight.</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#030407"/><stop offset=".58" stop-color="#11141a"/><stop offset="1" stop-color="#050608"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#dce5f3" stop-opacity=".35"/><stop offset="1" stop-color="#dce5f3" stop-opacity="0"/></radialGradient>
+ <linearGradient id="stone" x2="1"><stop stop-color="#353a44"/><stop offset=".5" stop-color="#c6cbd3"/><stop offset="1" stop-color="#343943"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+ <pattern id="stars" width="83" height="71" patternUnits="userSpaceOnUse"><circle cx="11" cy="13" r="1" fill="#fff" opacity=".5"/><circle cx="62" cy="49" r="1.4" fill="#fff" opacity=".4"/></pattern>
+</defs>
+<rect width="1200" height="420" fill="url(#bg)"/><rect width="1200" height="420" fill="url(#stars)"/>
+<ellipse cx="600" cy="210" rx="360" ry="280" fill="url(#glow)" filter="url(#blur)"/>
+<!-- distant cathedral ribs -->
+<g fill="none" stroke="#555c68" opacity=".5">
+ <path d="M70 420V175Q70 35 225 5Q380 35 380 175V420M125 420V190Q125 75 225 49Q325 75 325 190V420" stroke-width="9"/>
+ <path d="M820 420V175Q820 35 975 5Q1130 35 1130 175V420M875 420V190Q875 75 975 49Q1075 75 1075 190V420" stroke-width="9"/>
+</g>
+<!-- central pointed arch -->
+<g fill="none" stroke="url(#stone)" stroke-linecap="round">
+ <path d="M285 420V210Q285 35 600 8Q915 35 915 210V420" stroke-width="22"/>
+ <path d="M335 420V220Q335 76 600 40Q865 76 865 220V420" stroke-width="9"/>
+ <path d="M385 420V233Q385 112 600 75Q815 112 815 233V420" stroke-width="4" opacity=".8"/>
+</g>
+<!-- vertical pillars and ornate ribs -->
+<g stroke="#9299a5" fill="none" opacity=".72">
+ <path d="M295 420L295 275 265 244 295 213 325 244 295 275M905 420L905 275 875 244 905 213 935 244 905 275" stroke-width="4"/>
+ <path d="M430 420V258Q430 140 600 102Q770 140 770 258V420" stroke-width="3"/>
+ <path d="M465 420V270Q465 160 600 132Q735 160 735 270V420" stroke-width="2"/>
+ <path d="M600 18V130M585 55L600 78 615 55M570 95L600 121 630 95" stroke-width="3"/>
+</g>
+<!-- hanging lamps -->
+<g stroke="#9ca4b2" fill="none" opacity=".9"><path d="M190 0V85M1010 0V85M410 0V60M790 0V60" stroke-width="2"/></g>
+<g fill="#eef3ff"><circle cx="190" cy="96" r="9"/><circle cx="1010" cy="96" r="9"/><circle cx="410" cy="70" r="7"/><circle cx="790" cy="70" r="7"/></g>
+<g fill="#dce5f3" opacity=".3" filter="url(#blur)"><circle cx="190" cy="96" r="25"/><circle cx="1010" cy="96" r="25"/><circle cx="410" cy="70" r="20"/><circle cx="790" cy="70" r="20"/></g>
+<!-- floor, steps, side foliage silhouettes -->
+<path d="M0 355Q180 330 300 365T600 350T900 365T1200 355V420H0Z" fill="#090b10"/>
+<path d="M0 365H1200M0 382H1200M0 400H1200" stroke="#737b88" stroke-width="3" opacity=".65"/>
+<g fill="#252a33" stroke="#68707c" stroke-width="2" opacity=".9">
+ <path d="M0 420Q25 350 42 394Q60 330 78 395Q100 350 120 420ZM1080 420Q1100 350 1120 395Q1140 330 1160 395Q1180 350 1200 420Z"/>
+ <path d="M20 405q-8-45 14-56q-4 28 10 45q4-43 28-52q-10 34 0 63M1080 405q-8-45 14-56q-4 28 10 45q4-43 28-52q-10 34 0 63"/>
+</g>
+<!-- title panel -->
+<rect x="190" y="170" width="820" height="92" rx="2" fill="#050609" opacity=".72"/>
+<g stroke="#d8dce4" fill="none" opacity=".9">
+ <path d="M155 185H1045M155 247H1045" stroke-width="1.5"/>
+ <path d="M155 185l18-9 18 9-18 9zM1045 185l-18-9-18 9 18 9zM155 247l18-9 18 9-18 9zM1045 247l-18-9-18 9 18 9z" fill="#d8dce4"/>
+ <path d="M580 185l20-14 20 14-20 14zM580 247l20-14 20 14-20 14z" fill="#11151d"/>
+</g>
+<text x="600" y="225" text-anchor="middle" fill="#f1f2f5" font-family="Georgia, 'Times New Roman', serif" font-size="43" letter-spacing="11">HENRIQUE SANTANA</text>
+<text x="600" y="288" text-anchor="middle" fill="#c3c8d1" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="4">DESENVOLVEDOR JÚNIOR · TECNOLOGIA · CRIATIVIDADE</text>
+<path d="M450 310H750" stroke="#707987" stroke-width="1"/>
+<g fill="#e4e8ef" opacity=".75"><circle cx="600" cy="310" r="3"/><circle cx="440" cy="310" r="2"/><circle cx="760" cy="310" r="2"/></g>
+</svg>
