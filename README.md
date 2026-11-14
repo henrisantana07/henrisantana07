@@ -141,4 +141,6 @@ Prefere escrever? Respondo em até um dia útil.
 <a href="https://wa.me/5527997612988?text=Ol%C3%A1!%20Vi%20seu%20GitHub."><img src="https://img.shields.io/badge/WHATSAPP-171A20?style=flat-square&logo=whatsapp&logoColor=BFC4CE" /></a>
 <a href="https://www.linkedin.com/in/henrique-santana-017b45223"><img src="https://img.shields.io/badge/LINKEDIN-171A20?style=flat-square&logo=linkedin&logoColor=BFC4CE" /></a>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A8F98,100:111318&height=110&section=footer" alt="Rodapé com onda em tons de cinza" width="100%" />
+
 </div>
