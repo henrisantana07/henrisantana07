@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/palacio-branco-banner.svg" alt="Palácio Branco — Hollow Knight" width="100%" />
+<img src="./assets/Catedral Gótica com HENRISANTANA07.svg" alt="Palácio Branco — Hollow Knight" width="100%" />
 
 <a href="https://portifolio-bay-zeta.vercel.app">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=E5E7EB&background=00000000&center=true&vCenter=true&width=560&lines=Construo+interfaces+web+com+TypeScript+e+Tailwind;Java+%2B+PostgreSQL+no+back-end;Aberto+a+oportunidades+em+TI" alt="Typing SVG" />
