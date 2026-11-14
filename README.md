@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A8F98,100:111318&height=110&section=header" alt="Cabeçalho com onda em tons de cinza" width="100%" />
+
 <img src="./assets/Catedral Gótica com HENRISANTANA07.png" alt="Palácio Branco — Hollow Knight" width="100%" />
 
 <a href="https://portifolio-bay-zeta.vercel.app">
