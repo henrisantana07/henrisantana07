@@ -18,14 +18,51 @@
 ---
 
 <h2 align="center"><img src="./assets/titles/sobre.svg" alt="Sobre" /></h2>
-Desenvolvedor júnior. Construo interfaces web com **TypeScript**, **Tailwind**, **Java** e **PostgreSQL**.
 
-```text
-formação   → Desenvolvimento de Sistemas · SENAI (2024–2026)
-foco       → front-end e back-end
-local      → Serra, ES — Brasil
-status     → aberto a oportunidades
-```
+<p align="center">
+  Sou desenvolvedor em início de carreira, interessado em construir soluções digitais
+  que combinam tecnologia, funcionalidade e experiência do usuário. Tenho foco em
+  Desenvolvimento de Sistemas, com interesse tanto no desenvolvimento de interfaces
+  quanto na construção de aplicações e suas estruturas de back-end.
+</p>
+
+<p align="center">
+  Minha trajetória reúne formação técnica em Desenvolvimento de Sistemas, conhecimentos
+  em Manutenção e Suporte em Informática e experiência profissional na área administrativa.
+  Essa combinação contribuiu para desenvolver meu raciocínio lógico, organização,
+  capacidade de resolução de problemas e visão sobre processos e operações.
+</p>
+
+<p align="center">
+  Atualmente, direciono meus estudos e projetos para o ecossistema web, utilizando
+  TypeScript, JavaScript, Tailwind CSS, Java e PostgreSQL. Também tenho interesse em
+  interfaces modernas, arquitetura de aplicações, integração de serviços, automação e
+  tecnologias que tornam os sistemas mais eficientes.
+</p>
+
+<p align="center">
+  Busco evoluir continuamente por meio de projetos práticos, explorando novas tecnologias
+  e aprimorando minhas habilidades em desenvolvimento Front-end e Back-end, com o objetivo
+  de consolidar minha atuação como desenvolvedor Full Stack.
+</p>
+
+<div align="center">
+
+| FORMAÇÃO | ÁREA DE INTERESSE |
+| :-- | :-- |
+| Desenvolvimento de Sistemas · SENAI | Front-end e Back-end |
+| Técnico em Manutenção e Suporte em Informática | Desenvolvimento Web |
+| Ensino Médio Completo | Automação e Integrações |
+
+**LOCALIZAÇÃO**
+
+Serra, Espírito Santo · Brasil
+
+**STATUS**
+
+Aberto a oportunidades na área de Tecnologia da Informação
+
+</div>
 
 ---
 
@@ -58,12 +95,13 @@ status     → aberto a oportunidades
 ---
 
 <h2 align="center"><img src="./assets/titles/projetos-recentes.svg" alt="Projetos Recentes" /></h2>
-| PROJETO | DESCRIÇÃO | LINKS |
+
+| Projeto | Descrição | Acesso |
 | :-- | :-- | :-- |
-| **EMBERMUSIC**<br/><sub>`MÚSICA · PLAYER WEB`</sub> | Player web com busca, playlists, artistas e biblioteca local. Login com Google e layout responsivo | [`DEMO`](https://ember-music-five.vercel.app/) · [`CÓDIGO`](https://github.com/henrisantana07/ember-music) |
-| **CONTOS DERRY**<br/><sub>`LIVRARIA DE TERROR · E-COMMERCE`</sub> | Landing page temática com vitrine de coleções, destaques de títulos e navegação responsiva | [`DEMO`](https://contos-derry-1.vercel.app/) |
-| **VECTRA**<br/><sub>`AUTOMAÇÃO · LOGÍSTICA`</sub> | Landing page de solução de automação logística, com funcionalidades, proposta de valor e contato comercial | [`DEMO`](https://vectra4-1.vercel.app/) |
-| **PORTFÓLIO**<br/><sub>`SITE PESSOAL`</sub> | Projetos, trajetória e contato em um só lugar | [`DEMO`](https://portifolio-bay-zeta.vercel.app) · [`CÓDIGO`](https://github.com/henrisantana07/Portifolio) |
+| **Ember Music**<br/><sub>Música · Player web</sub> | Player web com busca, playlists, artistas e biblioteca local, com autenticação Google e interface responsiva. | [Demo](https://ember-music-five.vercel.app/) · [Código](https://github.com/henrisantana07/ember-music) |
+| **Contos Derry**<br/><sub>Livraria · E-commerce</sub> | Experiência digital temática de terror, com vitrine de coleções, destaques de títulos e navegação responsiva. | [Demo](https://contos-derry-1.vercel.app/) |
+| **VECTRA**<br/><sub>Automação · Logística</sub> | Apresentação de uma solução de automação logística, destacando funcionalidades, proposta de valor e contato comercial. | [Demo](https://vectra4-1.vercel.app/) |
+| **Portfólio**<br/><sub>Desenvolvimento pessoal · Web</sub> | Espaço para apresentar projetos, habilidades, trajetória profissional e canais de contato. | [Demo](https://portifolio-bay-zeta.vercel.app/) · [Código](https://github.com/henrisantana07/Portifolio) |
 
 ---
 
