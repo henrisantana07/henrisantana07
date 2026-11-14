@@ -1,23 +1,23 @@
 <div align="center">
 
-<img src="./assets/palacio-branco-banner.svg" alt="Banner monocromático inspirado no Palácio Branco de Hollow Knight" width="100%" />
+<img src="./assets/palacio-branco-banner.png" alt="Palácio Branco — Hollow Knight" width="100%" />
 
 <a href="https://portifolio-bay-zeta.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=00FF87&background=00000000&center=true&vCenter=true&width=560&lines=Construo+interfaces+web+com+TypeScript+e+Tailwind;Java+%2B+PostgreSQL+no+back-end;Aberto+a+oportunidades+em+TI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=E5E7EB&background=00000000&center=true&vCenter=true&width=560&lines=Construo+interfaces+web+com+TypeScript+e+Tailwind;Java+%2B+PostgreSQL+no+back-end;Aberto+a+oportunidades+em+TI" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<a href="https://portifolio-bay-zeta.vercel.app"><img src="https://img.shields.io/badge/VER%20PROJETOS-00FF87?style=flat-square&labelColor=00FF87&color=00FF87&logo=vercel&logoColor=00210C" /></a>
-<a href="https://portifolio-bay-zeta.vercel.app/curriculo.pdf"><img src="https://img.shields.io/badge/CURR%C3%8DCULO-000000?style=flat-square&color=000000&logo=readme&logoColor=E2E2E2&label=&labelColor=000000" /></a>
-<a href="https://www.linkedin.com/in/henrique-santana-017b45223"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=flat-square&color=000000&logo=linkedin&logoColor=00FF87&label=&labelColor=000000" /></a>
-<a href="mailto:henrisantana07@gmail.com"><img src="https://img.shields.io/badge/E--MAIL-000000?style=flat-square&color=000000&logo=gmail&logoColor=00FF87&label=&labelColor=000000" /></a>
+<a href="https://portifolio-bay-zeta.vercel.app"><img src="https://img.shields.io/badge/VER%20PROJETOS-171A20?style=flat-square&logo=vercel&logoColor=F1F2F5" /></a>
+<a href="https://portifolio-bay-zeta.vercel.app/curriculo.pdf"><img src="https://img.shields.io/badge/CURR%C3%8DCULO-171A20?style=flat-square&logo=readme&logoColor=F1F2F5" /></a>
+<a href="https://www.linkedin.com/in/henrique-santana-017b45223"><img src="https://img.shields.io/badge/LINKEDIN-171A20?style=flat-square&logo=linkedin&logoColor=BFC4CE" /></a>
+<a href="mailto:henrisantana07@gmail.com"><img src="https://img.shields.io/badge/E--MAIL-171A20?style=flat-square&logo=gmail&logoColor=BFC4CE" /></a>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
+---
 
-## `> SOBRE`
+## ◈ SOBRE
 
 Desenvolvedor júnior. Construo interfaces web com **TypeScript**, **Tailwind**, **Java** e **PostgreSQL**.
 
@@ -28,21 +28,29 @@ local      → Serra, ES — Brasil
 status     → aberto a oportunidades
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
+---
 
-## `> HABILIDADES`
+## ◈ HABILIDADES
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,html,css,tailwind,java,postgres,git,github,vercel,vscode&perline=11" alt="Skills" />
+**DESENVOLVIMENTO**
 
-<sub><code>SQL</code> · <code>GSAP</code> · <code>LÓGICA</code> · <code>ALGORITMOS</code> · <code>DOCUMENTAÇÃO TÉCNICA</code></sub>
+`TypeScript` · `JavaScript` · `HTML5` · `CSS3` · `Tailwind CSS` · `Java`
+
+**FERRAMENTAS E TECNOLOGIAS**
+
+`PostgreSQL` · `Git` · `GitHub` · `Vercel` · `VS Code` · `GSAP`
+
+**FUNDAMENTOS**
+
+`SQL` · `LÓGICA` · `ALGORITMOS` · `DOCUMENTAÇÃO TÉCNICA`
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
+---
 
-## `> PROJETOS RECENTES`
+## ◈ PROJETOS RECENTES
 
 | PROJETO | DESCRIÇÃO | LINKS |
 | :-- | :-- | :-- |
@@ -51,48 +59,46 @@ status     → aberto a oportunidades
 | **VECTRA**<br/><sub>`AUTOMAÇÃO · LOGÍSTICA`</sub> | Landing page de solução de automação logística, com funcionalidades, proposta de valor e contato comercial | [`DEMO`](https://vectra4-1.vercel.app/) |
 | **PORTFÓLIO**<br/><sub>`SITE PESSOAL`</sub> | Projetos, trajetória e contato em um só lugar | [`DEMO`](https://portifolio-bay-zeta.vercel.app) · [`CÓDIGO`](https://github.com/henrisantana07/Portifolio) |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
+---
 
-## `> STATUS`
+## ◈ STATUS
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/henrisantana07/henrisantana07/pacman-output/hud.svg" alt="Painel de status: contribuições, sequências e linguagens mais usadas no GitHub" width="100%" />
+<img src="https://raw.githubusercontent.com/henrisantana07/henrisantana07/pacman-output/hud.svg" alt="Painel de status do GitHub" width="100%" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
+---
 
-## `> ARCADE`
+## ◈ ARCADE
 
 Cada contribuição, um inimigo a menos. Meu histórico em modo Galaga.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/henrisantana07/henrisantana07/pacman-output/galaga-contribution-graph.svg" alt="Arcade Galaga animado com minhas contribuições no GitHub" width="100%" />
+<img src="https://raw.githubusercontent.com/henrisantana07/henrisantana07/pacman-output/galaga-contribution-graph.svg" alt="Arcade Galaga com minhas contribuições no GitHub" width="100%" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
+---
 
-## `> TRAJETÓRIA`
+## ◈ TRAJETÓRIA
 
 <div align="center">
-  <img src="./timeline.svg" alt="Linha do tempo: SENAI Beira Mar (2024–2026), Hilda Miranda Nascimento (2023–2025) e IBDH (2022–2024)" width="100%" />
+  <img src="./timeline.svg" alt="Linha do tempo da formação e trajetória" width="100%" />
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF87&height=2" width="100%" />
+---
 
-## `> CONTATO`
+## ◈ CONTATO
 
 Prefere escrever? Respondo em até um dia útil.
 
 <div align="center">
 
-<a href="mailto:henrisantana07@gmail.com"><img src="https://img.shields.io/badge/E--MAIL-00FF87?style=flat-square&logo=gmail&logoColor=00210C" /></a>
-<a href="https://wa.me/5527997612988?text=Ol%C3%A1!%20Vi%20seu%20GitHub."><img src="https://img.shields.io/badge/WHATSAPP-25D366?style=flat-square&logo=whatsapp&logoColor=00210C" /></a>
-<a href="https://www.linkedin.com/in/henrique-santana-017b45223"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=flat-square&logo=linkedin&logoColor=00FF87" /></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF87,100:000000&height=100&section=footer" alt="Footer" />
+<a href="mailto:henrisantana07@gmail.com"><img src="https://img.shields.io/badge/E--MAIL-171A20?style=flat-square&logo=gmail&logoColor=BFC4CE" /></a>
+<a href="https://wa.me/5527997612988?text=Ol%C3%A1!%20Vi%20seu%20GitHub."><img src="https://img.shields.io/badge/WHATSAPP-171A20?style=flat-square&logo=whatsapp&logoColor=BFC4CE" /></a>
+<a href="https://www.linkedin.com/in/henrique-santana-017b45223"><img src="https://img.shields.io/badge/LINKEDIN-171A20?style=flat-square&logo=linkedin&logoColor=BFC4CE" /></a>
 
 </div>
