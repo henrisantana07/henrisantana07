@@ -41,7 +41,7 @@ status     → aberto a oportunidades
     <td align="center" width="120"><img src="./assets/icons/html5.svg" width="40" height="40" alt="HTML5" /><br/><sub><b>HTML5</b></sub></td>
     <td align="center" width="120"><img src="./assets/icons/css3.svg" width="40" height="40" alt="CSS3" /><br/><sub><b>CSS3</b></sub></td>
     <td align="center" width="120"><img src="./assets/icons/tailwindcss.svg" width="40" height="40" alt="Tailwind CSS" /><br/><sub><b>TAILWIND CSS</b></sub></td>
-    <td align="center" width="120"><img src="./assets/icons/openjdk.svg" width="40" height="40" alt="Java" /><br/><sub><b>JAVA</b></sub></td>
+    <td align="center" width="120"><img src="./assets/icons/java.svg" width="40" height="40" alt="Java" /><br/><sub><b>JAVA</b></sub></td>
   </tr>
   <tr>
     <td align="center" width="120"><img src="./assets/icons/postgresql.svg" width="40" height="40" alt="PostgreSQL" /><br/><sub><b>POSTGRESQL</b></sub></td>
