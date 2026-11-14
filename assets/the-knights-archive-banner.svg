@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">The Knight's Archive — profile banner</title>
+<desc id="desc">An original underground gothic kingdom in deep navy, with silver arches, distant spires and blue luminous motes.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070A11"/><stop offset=".55" stop-color="#101A2A"/><stop offset="1" stop-color="#080B12"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#8FC7F0" stop-opacity=".34"/><stop offset="1" stop-color="#5B8DB8" stop-opacity="0"/></radialGradient>
+  <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8FA7BC" stop-opacity=".55"/><stop offset="1" stop-color="#26384B" stop-opacity=".08"/></linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#25384B" stop-opacity=".5"/><stop offset="1" stop-color="#080B12"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+  <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".45" fill="#D8E5F1" opacity=".12"/></pattern>
+</defs>
+<rect width="1200" height="320" fill="url(#bg)"/>
+<ellipse cx="830" cy="210" rx="260" ry="130" fill="url(#glow)" filter="url(#blur)"/>
+<g fill="none" stroke="#7893AD" stroke-opacity=".28" stroke-width="2">
+  <path d="M520 320V170Q520 52 640 52Q760 52 760 170V320"/>
+  <path d="M555 320V177Q555 87 640 87Q725 87 725 177V320"/>
+  <path d="M820 320V202Q820 118 900 118Q980 118 980 202V320"/>
+  <path d="M846 320V207Q846 145 900 145Q954 145 954 207V320"/>
+</g>
+<g fill="url(#stone)" opacity=".8">
+  <path d="M0 320V244L44 244V190L58 190V244H91V216L108 216V244H142V166L160 138L178 166V244H211V205L230 177L249 205V244H281V226L299 226V244H340V192L360 160L380 192V244H418V220L439 220V244H478V320Z"/>
+  <path d="M690 320V248L714 248V210L730 185L746 210V248H774V226L792 226V248H818V196L838 165L858 196V248H882V218L902 190L922 218V248H948V228L970 228V248H1000V188L1022 154L1044 188V248H1075V216L1094 216V248H1125V202L1148 174L1171 202V248H1200V320Z"/>
+</g>
+<path d="M0 286Q210 258 410 286T810 278T1200 270V320H0Z" fill="url(#floor)"/>
+<g stroke="#9AB4CC" stroke-opacity=".42" fill="none">
+  <path d="M0 289Q220 266 420 292T820 284T1200 276"/>
+  <path d="M470 320L535 286H790L850 320"/>
+  <path d="M510 320L558 295H765L810 320"/>
+</g>
+<g fill="#C5DDF1">
+  <circle cx="120" cy="74" r="1.5" opacity=".8"/><circle cx="260" cy="138" r="1.2" opacity=".55"/>
+  <circle cx="385" cy="58" r="1.8" opacity=".7"/><circle cx="498" cy="112" r="1.2" opacity=".7"/>
+  <circle cx="682" cy="42" r="1.6" opacity=".7"/><circle cx="780" cy="94" r="1.2" opacity=".65"/>
+  <circle cx="1040" cy="76" r="1.8" opacity=".7"/><circle cx="1124" cy="146" r="1.3" opacity=".65"/>
+  <circle cx="930" cy="42" r="1" opacity=".6"/><circle cx="318" cy="208" r="1.1" opacity=".55"/>
+</g>
+<g fill="#8CC5EE" filter="url(#blur)" opacity=".75"><circle cx="890" cy="224" r="9"/><circle cx="700" cy="190" r="6"/><circle cx="1080" cy="240" r="7"/></g>
+<g fill="#B9D9F1"><circle cx="890" cy="224" r="2"/><circle cx="700" cy="190" r="1.5"/><circle cx="1080" cy="240" r="1.8"/></g>
+<g transform="translate(890 245)" fill="#DCE8F2" stroke="#7E9AB4" stroke-width="1.4">
+  <path d="M-15 -2Q-14 -21 0 -22Q14 -21 15 -2L10 12L0 19L-10 12Z"/>
+  <path d="M-9 -5L-3 -8L-1 0L-8 1Z M9 -5L3 -8L1 0L8 1Z" fill="#172536" stroke="none"/>
+  <path d="M-4 11L0 15L4 11" fill="none"/>
+</g>
+<rect width="1200" height="320" fill="url(#grain)" opacity=".28"/>
+<path d="M24 22H1176M24 298H1176" stroke="#8AA8C4" stroke-opacity=".28"/>
+<path d="M24 22h42m-42 0v24M1176 22h-42m42 0v24M24 298h42m-42 0v-24M1176 298h-42m42 0v-24" stroke="#B9C8D8" stroke-opacity=".48" fill="none"/>
+</svg>
