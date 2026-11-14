@@ -34,17 +34,26 @@ status     → aberto a oportunidades
 
 <div align="center">
 
-**DESENVOLVIMENTO**
+<table>
+  <tr>
+    <td align="center" width="120"><img src="./assets/icons/typescript.svg" width="40" height="40" alt="TypeScript" /><br/><sub><b>TYPESCRIPT</b></sub></td>
+    <td align="center" width="120"><img src="./assets/icons/javascript.svg" width="40" height="40" alt="JavaScript" /><br/><sub><b>JAVASCRIPT</b></sub></td>
+    <td align="center" width="120"><img src="./assets/icons/html5.svg" width="40" height="40" alt="HTML5" /><br/><sub><b>HTML5</b></sub></td>
+    <td align="center" width="120"><img src="./assets/icons/css3.svg" width="40" height="40" alt="CSS3" /><br/><sub><b>CSS3</b></sub></td>
+    <td align="center" width="120"><img src="./assets/icons/tailwindcss.svg" width="40" height="40" alt="Tailwind CSS" /><br/><sub><b>TAILWIND CSS</b></sub></td>
+    <td align="center" width="120"><img src="./assets/icons/openjdk.svg" width="40" height="40" alt="Java" /><br/><sub><b>JAVA</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="120"><img src="./assets/icons/postgresql.svg" width="40" height="40" alt="PostgreSQL" /><br/><sub><b>POSTGRESQL</b></sub></td>
+    <td align="center" width="120"><img src="./assets/icons/git.svg" width="40" height="40" alt="Git" /><br/><sub><b>GIT</b></sub></td>
+    <td align="center" width="120"><img src="./assets/icons/github.svg" width="40" height="40" alt="GitHub" /><br/><sub><b>GITHUB</b></sub></td>
+    <td align="center" width="120"><img src="./assets/icons/vercel.svg" width="40" height="40" alt="Vercel" /><br/><sub><b>VERCEL</b></sub></td>
+    <td align="center" width="120"><img src="./assets/icons/visualstudiocode.svg" width="40" height="40" alt="VS Code" /><br/><sub><b>VS CODE</b></sub></td>
+    <td align="center" width="120"><img src="./assets/icons/greensock.svg" width="40" height="40" alt="GSAP" /><br/><sub><b>GSAP</b></sub></td>
+  </tr>
+</table>
 
-`TypeScript` · `JavaScript` · `HTML5` · `CSS3` · `Tailwind CSS` · `Java`
-
-**FERRAMENTAS E TECNOLOGIAS**
-
-`PostgreSQL` · `Git` · `GitHub` · `Vercel` · `VS Code` · `GSAP`
-
-**FUNDAMENTOS**
-
-`SQL` · `LÓGICA` · `ALGORITMOS` · `DOCUMENTAÇÃO TÉCNICA`
+<sub><code>SQL</code> · <code>LÓGICA</code> · <code>ALGORITMOS</code> · <code>DOCUMENTAÇÃO TÉCNICA</code></sub>
 
 </div>
 
