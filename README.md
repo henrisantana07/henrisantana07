@@ -19,28 +19,28 @@
 
 <h2 align="center"><img src="./assets/titles/sobre.svg" alt="Sobre" /></h2>
 
-<p align="justify">
+<p align="center">
   Sou desenvolvedor em início de carreira, interessado em construir soluções digitais
   que combinam tecnologia, funcionalidade e experiência do usuário. Tenho foco em
   Desenvolvimento de Sistemas, com interesse tanto no desenvolvimento de interfaces
   quanto na construção de aplicações e suas estruturas de back-end.
 </p>
 
-<p align="justify">
+<p align="center">
   Minha trajetória reúne formação técnica em Desenvolvimento de Sistemas, conhecimentos
   em Manutenção e Suporte em Informática e experiência profissional na área administrativa.
   Essa combinação contribuiu para desenvolver meu raciocínio lógico, organização,
   capacidade de resolução de problemas e visão sobre processos e operações.
 </p>
 
-<p align="justify">
+<p align="center">
   Atualmente, direciono meus estudos e projetos para o ecossistema web, utilizando
   TypeScript, JavaScript, Tailwind CSS, Java e PostgreSQL. Também tenho interesse em
   interfaces modernas, arquitetura de aplicações, integração de serviços, automação e
   tecnologias que tornam os sistemas mais eficientes.
 </p>
 
-<p align="justify">
+<p align="center">
   Busco evoluir continuamente por meio de projetos práticos, explorando novas tecnologias
   e aprimorando minhas habilidades em desenvolvimento Front-end e Back-end, com o objetivo
   de consolidar minha atuação como desenvolvedor Full Stack.
