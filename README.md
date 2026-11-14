@@ -3,7 +3,7 @@
 <img src="./assets/Catedral Gótica com HENRISANTANA07.png" alt="Palácio Branco — Hollow Knight" width="100%" />
 
 <a href="https://portifolio-bay-zeta.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=E5E7EB&background=00000000&center=true&vCenter=true&width=560&lines=Construo+interfaces+web+com+TypeScript+e+Tailwind;Java+%2B+PostgreSQL+no+back-end;Aberto+a+oportunidades+em+TI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=18&pause=1200&color=E5E7EB&background=00000000&center=true&vCenter=true&width=560&lines=Construo+interfaces+web+com+TypeScript+e+Tailwind;Java+%2B+PostgreSQL+no+back-end;Aberto+a+oportunidades+em+TI" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -17,8 +17,7 @@
 
 ---
 
-## ◈ SOBRE
-
+<h2 align="center"><img src="./assets/titles/sobre.svg" alt="Sobre" /></h2>
 Desenvolvedor júnior. Construo interfaces web com **TypeScript**, **Tailwind**, **Java** e **PostgreSQL**.
 
 ```text
@@ -30,8 +29,7 @@ status     → aberto a oportunidades
 
 ---
 
-## ◈ HABILIDADES
-
+<h2 align="center"><img src="./assets/titles/habilidades.svg" alt="Habilidades" /></h2>
 <div align="center">
 
 <table>
@@ -59,8 +57,7 @@ status     → aberto a oportunidades
 
 ---
 
-## ◈ PROJETOS RECENTES
-
+<h2 align="center"><img src="./assets/titles/projetos-recentes.svg" alt="Projetos Recentes" /></h2>
 | PROJETO | DESCRIÇÃO | LINKS |
 | :-- | :-- | :-- |
 | **EMBERMUSIC**<br/><sub>`MÚSICA · PLAYER WEB`</sub> | Player web com busca, playlists, artistas e biblioteca local. Login com Google e layout responsivo | [`DEMO`](https://ember-music-five.vercel.app/) · [`CÓDIGO`](https://github.com/henrisantana07/ember-music) |
@@ -70,8 +67,7 @@ status     → aberto a oportunidades
 
 ---
 
-## ◈ STATUS
-
+<h2 align="center"><img src="./assets/titles/status.svg" alt="Status" /></h2>
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/henrisantana07/henrisantana07/pacman-output/hud.svg" alt="Painel de status do GitHub" width="100%" />
@@ -80,8 +76,7 @@ status     → aberto a oportunidades
 
 ---
 
-## ◈ ARCADE
-
+<h2 align="center"><img src="./assets/titles/arcade.svg" alt="Arcade" /></h2>
 Cada contribuição, um inimigo a menos. Meu histórico em modo Galaga.
 
 <div align="center">
@@ -92,16 +87,14 @@ Cada contribuição, um inimigo a menos. Meu histórico em modo Galaga.
 
 ---
 
-## ◈ TRAJETÓRIA
-
+<h2 align="center"><img src="./assets/titles/trajetoria.svg" alt="Trajetória" /></h2>
 <div align="center">
   <img src="./timeline.svg" alt="Linha do tempo da formação e trajetória" width="100%" />
 </div>
 
 ---
 
-## ◈ CONTATO
-
+<h2 align="center"><img src="./assets/titles/contato.svg" alt="Contato" /></h2>
 Prefere escrever? Respondo em até um dia útil.
 
 <div align="center">

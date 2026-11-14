@@ -2,6 +2,7 @@
 // Roda no GitHub Actions com o GITHUB_TOKEN padrão. Sem dependências.
 // Teste local sem rede: HUD_MOCK=1 GH_LOGIN=henrisantana07 node .github/scripts/hud.mjs
 import { mkdirSync, writeFileSync } from "node:fs";
+import { FACE } from "./font.mjs";
 
 const login = process.env.GH_LOGIN || process.env.GITHUB_REPOSITORY_OWNER;
 const token = process.env.GITHUB_TOKEN;
@@ -87,8 +88,8 @@ function render(d) {
   // paleta White Palace: grafite e cinza claro, igual ao README
   const W = 880, H = 330;
   const ACCENT = "#F1F2F5", INK = "#BFC4CE", SIL = "#D9DDE4", DIM = "#8D95A2", LINE = "#343A44", PANEL = "#171A20", BG = "#08090C";
-  const mono = `'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace`;
-  const head = `'Space Grotesk',Inter,'Segoe UI',system-ui,Arial,sans-serif`;
+  const mono = `'HK','Trajan Pro',Cinzel,Georgia,serif`;
+  const head = `'HK','Trajan Pro',Cinzel,Georgia,serif`;
 
   const big = [
     ["CONTRIBUIÇÕES", fmt(s.total), "desde o início"],
@@ -122,7 +123,7 @@ function render(d) {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Status do GitHub: ${fmt(s.total)} contribuições, sequência atual ${s.current}, maior sequência ${s.longest}">
 <defs><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".03"/></pattern></defs>
-<style>.bar{transform-origin:0 0;animation:g 1.1s cubic-bezier(.2,.8,.2,1) both}@keyframes g{from{transform:scaleX(0)}}
+<style>${FACE}.bar{transform-origin:0 0;animation:g 1.1s cubic-bezier(.2,.8,.2,1) both}@keyframes g{from{transform:scaleX(0)}}
 .xp{transform-origin:100px 0;animation:g 1.4s cubic-bezier(.2,.8,.2,1) both}.dot{animation:b 1.6s steps(1) infinite}@keyframes b{50%{opacity:.15}}
 @media (prefers-reduced-motion:reduce){.bar,.xp,.dot{animation:none}}</style>
 <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" fill="${BG}" stroke="${LINE}"/>
