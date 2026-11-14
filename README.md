@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00FF87&height=220&section=header&text=HENRIQUE%20SANTANA&fontSize=52&fontColor=E2E2E2&fontAlign=50&fontAlignY=40&desc=DESENVOLVEDOR%20J%C3%9ANIOR&descSize=18&descColor=00FF87&descAlignY=62" alt="Henrique Santana" />
+<img src="./assets/palacio-branco-banner.svg" alt="Banner monocromático inspirado no Palácio Branco de Hollow Knight" width="100%" />
 
 <a href="https://portifolio-bay-zeta.vercel.app">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=00FF87&background=00000000&center=true&vCenter=true&width=560&lines=Construo+interfaces+web+com+TypeScript+e+Tailwind;Java+%2B+PostgreSQL+no+back-end;Aberto+a+oportunidades+em+TI" alt="Typing SVG" />
