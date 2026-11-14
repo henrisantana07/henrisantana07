@@ -84,9 +84,9 @@ function render(d) {
   const sum = d.langs.reduce((a, [, v]) => a + v, 0) || 1;
   const top = d.langs.slice(0, 5).map(([n, v]) => [n, (v / sum) * 100]);
 
-  // paleta do portfólio: preto + verde neon
+  // paleta White Palace: grafite e cinza claro, igual ao README
   const W = 880, H = 330;
-  const GREEN = "#00FF87", INK = "#E2E2E2", SIL = "#B9CBB9", DIM = "#849585", LINE = "#181E18", PANEL = "#0B0B0B";
+  const ACCENT = "#F1F2F5", INK = "#BFC4CE", SIL = "#D9DDE4", DIM = "#8D95A2", LINE = "#343A44", PANEL = "#171A20", BG = "#08090C";
   const mono = `'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace`;
   const head = `'Space Grotesk',Inter,'Segoe UI',system-ui,Arial,sans-serif`;
 
@@ -99,7 +99,7 @@ function render(d) {
     const x = 40 + i * 176;
     return `<g transform="translate(${x} 112)">${i ? `<path d="M-20 -6 V78" stroke="${LINE}"/>` : ""}
 <text font-family="${mono}" font-size="10.5" letter-spacing="2" fill="${DIM}">${l}</text>
-<text y="50" font-family="${head}" font-size="46" font-weight="700" fill="${i === 1 ? GREEN : INK}">${v}</text>
+<text y="50" font-family="${head}" font-size="46" font-weight="700" fill="${i === 1 ? ACCENT : INK}">${v}</text>
 <text y="72" font-family="${mono}" font-size="10.5" fill="${DIM}">${sub}</text></g>`;
   }).join("");
 
@@ -111,13 +111,13 @@ function render(d) {
   }).join("");
 
   const bx = 598, bw = 242;
-  const shades = ["#E2E2E2", "#B9CBB9", "#849585", "#5C6B5C"];
+  const shades = ["#D9DDE4", "#BFC4CE", "#9299A5", "#515864"];
   const langSvg = top.length ? top.map(([n, p], i) => {
     const y = 110 + i * 40, w = Math.max(3, (p / 100) * bw);
     return `<g transform="translate(${bx} ${y})"><text font-family="${mono}" font-size="11.5" fill="${SIL}">${esc(n)}</text>
 <text x="${bw}" text-anchor="end" font-family="${mono}" font-size="11.5" fill="${DIM}">${p.toFixed(1).replace(".", ",")}%</text>
-<rect y="9" width="${bw}" height="7" fill="#141814"/>
-<rect class="bar" style="animation-delay:${i * 0.12}s" y="9" width="${w.toFixed(1)}" height="7" fill="${i === 0 ? GREEN : shades[i - 1]}"/></g>`;
+<rect y="9" width="${bw}" height="7" fill="${PANEL}"/>
+<rect class="bar" style="animation-delay:${i * 0.12}s" y="9" width="${w.toFixed(1)}" height="7" fill="${i === 0 ? ACCENT : shades[i - 1]}"/></g>`;
   }).join("") : `<text x="${bx}" y="130" font-family="${mono}" font-size="11.5" fill="${DIM}">sem dados de linguagem</text>`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Status do GitHub: ${fmt(s.total)} contribuições, sequência atual ${s.current}, maior sequência ${s.longest}">
@@ -125,15 +125,15 @@ function render(d) {
 <style>.bar{transform-origin:0 0;animation:g 1.1s cubic-bezier(.2,.8,.2,1) both}@keyframes g{from{transform:scaleX(0)}}
 .xp{transform-origin:100px 0;animation:g 1.4s cubic-bezier(.2,.8,.2,1) both}.dot{animation:b 1.6s steps(1) infinite}@keyframes b{50%{opacity:.15}}
 @media (prefers-reduced-motion:reduce){.bar,.xp,.dot{animation:none}}</style>
-<rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" fill="#000000" stroke="${LINE}"/>
+<rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" fill="${BG}" stroke="${LINE}"/>
 <rect width="${W}" height="${H}" fill="url(#scan)"/>
-<g fill="none" stroke="${GREEN}" stroke-width="1.5" opacity=".7"><path d="M14 34 V14 H34"/><path d="M${W - 34} 14 H${W - 14} V34"/><path d="M14 ${H - 34} V${H - 14} H34"/><path d="M${W - 34} ${H - 14} H${W - 14} V${H - 34}"/></g>
+<g fill="none" stroke="${ACCENT}" stroke-width="1.5" opacity=".7"><path d="M14 34 V14 H34"/><path d="M${W - 34} 14 H${W - 14} V34"/><path d="M14 ${H - 34} V${H - 14} H34"/><path d="M${W - 34} ${H - 14} H${W - 14} V${H - 34}"/></g>
 <text x="40" y="50" font-family="${mono}" font-size="12" letter-spacing="3" fill="${SIL}">STATUS <tspan fill="${DIM}">// @${esc(login)}</tspan></text>
-<text x="40" y="74" font-family="${mono}" font-size="12" font-weight="700" fill="${GREEN}">NV ${level}</text>
-<rect x="100" y="66" width="390" height="6" fill="#141814"/>
-<rect class="xp" x="100" y="66" width="${(xp * 390).toFixed(1)}" height="6" fill="${GREEN}"/>
+<text x="40" y="74" font-family="${mono}" font-size="12" font-weight="700" fill="${ACCENT}">NV ${level}</text>
+<rect x="100" y="66" width="390" height="6" fill="${PANEL}"/>
+<rect class="xp" x="100" y="66" width="${(xp * 390).toFixed(1)}" height="6" fill="${ACCENT}"/>
 <text x="528" y="74" text-anchor="end" font-family="${mono}" font-size="9.5" fill="${DIM}">XP</text>
-<circle class="dot" cx="${W - 44}" cy="46" r="4" fill="${GREEN}"/><text x="${W - 56}" y="50" text-anchor="end" font-family="${mono}" font-size="10.5" letter-spacing="2" fill="${DIM}">AO VIVO</text>
+<circle class="dot" cx="${W - 44}" cy="46" r="4" fill="${ACCENT}"/><text x="${W - 56}" y="50" text-anchor="end" font-family="${mono}" font-size="10.5" letter-spacing="2" fill="${DIM}">AO VIVO</text>
 ${bigSvg}
 <path d="M40 206 H528" stroke="${LINE}"/>
 ${rowSvg}
@@ -150,6 +150,6 @@ try {
 } catch (e) {
   // Sem dados: grava um painel "sem sinal" para o README não ficar com imagem quebrada.
   console.error(e);
-  writeFileSync(out, `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 120" width="880" height="120" role="img" aria-label="Status indisponível no momento"><rect x=".5" y=".5" width="879" height="119" fill="#000000" stroke="#181E18"/><text x="440" y="66" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing="4" fill="#849585">SEM SINAL // TENTANDO RECONECTAR</text></svg>`);
+  writeFileSync(out, `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 120" width="880" height="120" role="img" aria-label="Status indisponível no momento"><rect x=".5" y=".5" width="879" height="119" fill="#08090C" stroke="#343A44"/><text x="440" y="66" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing="4" fill="#8D95A2">SEM SINAL // TENTANDO RECONECTAR</text></svg>`);
   process.exitCode = 1;
 }

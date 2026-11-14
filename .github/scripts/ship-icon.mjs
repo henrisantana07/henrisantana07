@@ -1,23 +1,36 @@
-// Troca a nave do Galaga pelo ícone escolhido (invader pixel art) nos SVGs gerados em dist/.
-// A ação do arcade desenha a nave como a única <image> de 32x35 do SVG;
-// as outras <image> (10x13) são os tiros e ficam intactas.
+// Personaliza o SVG do Galaga em dist/ com a paleta White Palace (cinza monocromático):
+//  - troca a nave pelo ícone invader (única <image> de 32x35; os tiros 10x13 ficam intactos)
+//  - recolore as cores verdes do tema github-dark da ação para tons de cinza
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const DIR = process.env.ARCADE_DIR || "dist";
-const ICON = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADSCAYAAAAcws+XAAACMElEQVR4Xu3dQUoDQRRF0bS4PF2t7i8Sx5lIPvKpe848gerOpUaP3G4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOOu8W98wcf9dn/h47++r11nOs1p7+jttBcEfyEA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgLRVg5gJE4ONh9OGNZ7Lc24A0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0lYtwqZWS+y2aW3nBiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBtZBG2acn1dbuPvNDPmUezxonPZWJZ5gYgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAademMQv8NzcAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAae8Tp5/4q5oH67SGTb8XNwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIGxnEbDI1tuC500ZLbgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQdp12+k2Djalxzoln2sINQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAs34AM0MoYbAAq6UAAAAASUVORK5CYII=";
+const ICON = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADSCAYAAAAcws+XAAACI0lEQVR4Xu3dsWoCQRhGUVfshPj+jxkhdcTUNuIPGeae0yvMrpepPjydAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADGHePf+IHv+8/vBx//c/u6LnWm3ez2js67vSB4hwBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0rYbj0wMNp52G9Z4Lq+5AUgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEhbahE2tVpibSut7dwApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApI0swiy5+A8TyzI3AGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEg7jFkocwOQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQdpk4/cRf1TxZpzWs9HtxA5AmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYC0kUHMSqbGFry222jJDUCaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSjt1Ov9JgY2qcs+OZVuEGIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAWQ/uBjDu2YeI5QAAAABJRU5ErkJggg==";
+
+// verdes do tema github-dark -> cinzas do README (ordem: do menos ao mais intenso)
+const PALETTE = {
+  "#0e4429": "#343A44",
+  "#006d32": "#515864",
+  "#26a641": "#9299A5",
+  "#39d353": "#F1F2F5",
+  "#aaaaaa": "#8D95A2",
+  "#000000": "#08090C",
+};
 
 const files = readdirSync(DIR).filter((f) => /^galaga-contribution-graph.*\.svg$/.test(f));
 if (!files.length) console.warn("ship-icon: nenhum SVG do galaga encontrado em " + DIR);
 
 for (const f of files) {
   const path = `${DIR}/${f}`;
-  const svg = readFileSync(path, "utf8");
+  let svg = readFileSync(path, "utf8");
   let swapped = 0;
-  const out = svg.replace(/<image\b[^>]*\bwidth="32"[^>]*\bheight="35"[^>]*>/g, (tag) => {
+  svg = svg.replace(/<image\b[^>]*\bwidth="32"[^>]*\bheight="35"[^>]*>/g, (tag) => {
     swapped++;
     return tag.replace(/href="[^"]*"/, `href="${ICON}"`);
   });
   if (swapped !== 1) console.warn(`ship-icon: ${f}: esperava 1 nave, encontrei ${swapped}`);
-  writeFileSync(path, out);
-  console.log(`ship-icon: ${f} -> ${swapped} nave(s) trocada(s)`);
+  for (const [from, to] of Object.entries(PALETTE)) {
+    svg = svg.replace(new RegExp(from.replace("#", "#"), "gi"), to);
+  }
+  writeFileSync(path, svg);
+  console.log(`ship-icon: ${f} -> ${swapped} nave(s) trocada(s), paleta aplicada`);
 }
